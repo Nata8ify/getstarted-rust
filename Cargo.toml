@@ -1,0 +1,12 @@
+[package]
+name = "axum_getstarted"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8.8"
+sqlx = "0.8.6"
+
+# Async runtime
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0.228", features = ["derive"] }
